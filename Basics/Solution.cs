@@ -544,7 +544,7 @@ namespace DataStructuresAndAlgorithms.Basics
         }
 
 
-        public static string ReomveSpaceInString(string str)
+        public static string? ReomveSpaceInString(string str)
         {
             if (str == null || str.Length < 2) return str;
 
@@ -572,7 +572,7 @@ namespace DataStructuresAndAlgorithms.Basics
             return res;
         }
 
-        public static string RevserseWordsInString(string str)
+        public static string? RevserseWordsInString(string str)
         {
             if (str == null || str.Length < 2) return str;
 
