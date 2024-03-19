@@ -9,7 +9,10 @@ public class Program
         int W = 8; // maximum capacity
         int n = profits.Length; // number of items
 
-        var res0 = Knapsack.KnapSack(W, weights, profits, n);    
-        var res1 = Knapsack.KnapSack1(W, weights, profits, n);    
+        // var res0 = Knapsack.KnapSack(W, weights, profits, n);    
+        // var res1 = Knapsack.KnapSack1(W, weights, profits, n);    
+
+        List<string> res2 = PalindromicSubstrings.SubstringsPalindrome("babad");
+        
     }
 }
